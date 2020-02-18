@@ -7,7 +7,9 @@ Komut satırı üzerinden ürün içerisinde ki ilgili registerları okuma yapab
 Cihazın slave adresi "1" olarak belirlenmiştir.
 
 cd RGKR/
+
 gcc -Wall main.c RGKR.c
+
 sudo ./a.out -r ACTE_IM_L1
 
 Calculated Value of ACTE_IM_L1 is : 26.945000 
