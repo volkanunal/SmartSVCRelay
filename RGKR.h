@@ -24,11 +24,6 @@ typedef struct RGKR
 extern RGKR_Params_t RGKR_Params_Table[];
 extern RGKR_Uart_Params_t RGKR_Uart_Params;
 
-/**
- * @brief ParseProcess
- * @param pParseArr
- * @return 
- */ 
 float  ParseProcess(char *pParseArr, int size, int whichReg);
   
 
