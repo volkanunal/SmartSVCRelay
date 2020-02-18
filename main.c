@@ -68,7 +68,7 @@ static void process_opt(int argc, char * argv[])
 		static const struct option long_options[] = {
 			{"help", no_argument, 0, 0},
 			{"port", optional_argument, 0, 'p'},
-            {"RegName", required_argument, 0, 'r'},
+            		{"RegName", required_argument, 0, 'r'},
 			
 			{0,0,0,0},
 		};
